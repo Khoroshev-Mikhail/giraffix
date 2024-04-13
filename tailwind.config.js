@@ -28,9 +28,8 @@ module.exports = {
         '2xl': '1600px',
       },
       colors: {
-        '_black': '#0E111A',
-        '_green': '#61FF00',
-        '_green-dark': '#348900',
+        '_orange': '#FF5924',
+        '_gray': '#252525',
       },
     },
   },

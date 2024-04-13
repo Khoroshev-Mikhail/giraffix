@@ -1,4 +1,4 @@
-export default function Partners(){
+export default function Feedback(){
     return (
         <section className="_section">
             <div className="_wrapper">
