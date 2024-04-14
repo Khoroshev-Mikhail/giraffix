@@ -19,7 +19,7 @@ export default function App({ Component, pageProps }) {
   }, [])
   return (
       <main className={`${MANROPE} text-white`}>
-          <Component {...pageProps} />;
+          <Component {...pageProps} />
       </main>
   )
 }

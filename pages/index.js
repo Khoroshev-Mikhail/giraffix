@@ -14,6 +14,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
       <>
+
           <Head>
                 <title>Giraffix</title>
                 <meta httpEquiv="content-language" content="en" />
@@ -21,12 +22,17 @@ export default function Home() {
                 <link rel="shortcut icon" href="/img/favicon.png" />
           </Head>
           <Header/>
-          <About/>
-          <Tokenomics/>
-          <Partners/>
-          <Roadmap/>
-          <Feedback/>
-          <Footer/>
+          <div className="relative w-full h-auto ">
+              <div className="absolute w-full h-full bg-[url('/img/components/bg.png')] bg-contain bg-repeat-y opacity-15 -z-50">
+
+              </div>
+              <About/>
+              <Tokenomics/>
+              <Partners/>
+              <Roadmap/>
+              <Feedback/>
+              <Footer/>
+          </div>
       </>
   );
 }

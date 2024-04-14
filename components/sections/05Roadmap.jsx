@@ -2,8 +2,8 @@ import { DRUK_WIDE } from "@/pages/_app";
 
 export default function Roadmap(){
     return (
-        <section className="_section">
-            <div className="_wrapper pb-60">
+        <section className="_section mt-28">
+            <div className="_wrapper">
                 <h2 className={`${DRUK_WIDE} _h2 `}>ROADMAP</h2>
 
                 {/* <div className="flex w-full">

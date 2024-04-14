@@ -5,7 +5,7 @@ import Social from "../elements/Social";
 
 export default function Footer(){
     return (
-        <section className="_section">
+        <section className="_section mt-40">
             <div className="_wrapper">
                 <div className="flex flex-row justify-between bg-_orange rounded-[35px]">
                     <div className="w-1/2 basis-1/2 flex flex-col px-[70px] py-[80px] justify-between">

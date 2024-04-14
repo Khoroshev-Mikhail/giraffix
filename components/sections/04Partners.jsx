@@ -10,9 +10,12 @@ import { DRUK_WIDE } from "@/pages/_app";
 
 export default function Partners(){
     return (
-        <section className="_section">
+        <section className="_section relative overflow-visible mt-28">
+
+            <div className="hidden md:block w-full h-[250%] absolute -bottom-[100%] -z-40 bg-contain bg-no-repeat bg-[url('/img/components/eclipse.png')]"></div>
+
             <div className="_wrapper">
-                <h2 className={`${DRUK_WIDE} _h2 `}>PARTNERS</h2>
+                <h2 className={`${DRUK_WIDE} _h2 text-center w-full`}>PARTNERS</h2>
                 
                 <div className='flex flex-col w-full bg-_gray rounded-3xl p-14'>
 

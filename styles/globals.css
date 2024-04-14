@@ -14,7 +14,7 @@ body {
   @apply px-5 max-w-[1200px] mx-auto
 }
 ._h2 {
-  @apply text-[60px] bg-gradient-to-r from-_orange to-[#FF9330] inline-block text-transparent bg-clip-text drop-shadow-lg uppercase
+  @apply text-[60px] bg-gradient-to-r from-_orange to-[#FF932F] inline-block text-transparent bg-clip-text drop-shadow-lg uppercase
 }
 ._24px{
   @apply text-[24px] font-medium

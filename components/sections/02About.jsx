@@ -10,7 +10,7 @@ export default function About(){
     return (
         <section className="_section">
             <div className="_wrapper flex flex-col justify-between overflow-hidden font-extrabold text-black">
-                <h2 className={`${DRUK_WIDE} _h2 `}></h2>
+                <h2 className={`${DRUK_WIDE} _h2 text-center`}>About girafix</h2>
 
                 <div className="grid grid-rows-1 grid-cols-2 w-full gap-x-5 text-white">
                     <div className="flex flex-col col-span-1 row-span-1 p-[40px] bg-_gray rounded-[45px] relative bg-[url('/img/components/02about/eclipse.png')] bg-no-repeat bg-right-top bg-contain">
