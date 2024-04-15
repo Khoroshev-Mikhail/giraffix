@@ -40,19 +40,19 @@ export default function Header(){
                 {/* Основа */}
                 <div className="flex flex-col">
                     
-                    <h1 className={`${DRUK_WIDE} text-center py-5 text-[128px] leading-none bg-gradient-to-r from-_orange to-[#FF9330] inline-block text-transparent bg-clip-text drop-shadow-lg uppercase`}>GIRAFFIX</h1>
+                    <h1 className={`${DRUK_WIDE} _text-shadow text-center py-5 text-[128px] leading-none bg-gradient-to-r from-_orange to-[#FF9330] inline-block text-transparent bg-clip-text drop-shadow-lg uppercase`}>GIRAFFIX</h1>
                     
                     <div className="flex justify-center gap-x-2.5">
-                        <a className="px-[50px] _20px-extrabold  py-[27px] rounded-2xl bg-_orange " href="">PRESALE</a>
-                        <a className="px-[50px] _20px-extrabold  py-[27px] rounded-2xl bg-_gray" href="">WHITEPAPPER</a>
+                        <a className="px-[50px] _20px-extrabold  py-[27px] rounded-2xl bg-gradient-to-r from-_orange to-[#FF7606] " href="">PRESALE</a>
+                        <a className="px-[50px] _20px-extrabold  py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="">WHITEPAPPER</a>
                     </div>
                       
                     <div className="relative ">
                         <div className="max-w-[75%] mx-auto">
                             <Image className="w-auto mx-auto pt-[3%]" src={giraffix_n_lines} />
                         </div>
-                        <div className="absolute left-[0%] top-[20%] w-1/3 bg-_gray bg-opacity-80 px-[27px] py-[17px] rounded-3xl _20px-extrabold">The world of cryptocurrencies and decentralized finance unites an exciting <span className="text-_orange">world of possibilities</span></div>
-                        <div className="absolute right-[0%] top-[10%] w-1/3 bg-_gray bg-opacity-80 px-[27px] py-[17px] rounded-3xl _20px-extrabold"> Just as Grafix pleases millions of people, our token will <span className="text-_orange">make the world a better place.</span></div>
+                        <div className="absolute left-[0%] top-[20%] w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray px-[27px] py-[17px] rounded-3xl _20px-extrabold">The world of cryptocurrencies and decentralized finance unites an exciting <span className="text-_orange">world of possibilities</span></div>
+                        <div className="absolute right-[0%] top-[10%] w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray px-[27px] py-[17px] rounded-3xl _20px-extrabold"> Just as Grafix pleases millions of people, our token will <span className="text-_orange">make the world a better place.</span></div>
                         
                         <Image className="absolute left-0 w-full mx-auto -bottom-[10%] -z-10  " src={eclipse} />
                         {/* <div className="absolute w-full h-full bg-[url('/img/components/01Header/eclipse.png')] -z-50"></div> */}

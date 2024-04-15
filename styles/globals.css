@@ -13,8 +13,13 @@ body {
 ._wrapper {
   @apply px-5 max-w-[1200px] mx-auto
 }
+
+._text-shadow{
+  filter: drop-shadow(0px 5px #000);
+}
+
 ._h2 {
-  @apply text-[60px] bg-gradient-to-r from-_orange to-[#FF932F] inline-block text-transparent bg-clip-text drop-shadow-lg uppercase
+  @apply text-[60px] _text-shadow bg-gradient-to-r from-_orange to-[#FF932F] inline-block shadow-inner text-transparent bg-clip-text  uppercase mb-[30px]
 }
 ._24px{
   @apply text-[24px] font-medium
