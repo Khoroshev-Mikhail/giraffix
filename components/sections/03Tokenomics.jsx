@@ -8,61 +8,61 @@ export default function Tokenomics(){
         <section className="_section mt-28">
             <div className="_wrapper flex flex-col">
                 <h2 className={`${DRUK_WIDE} _h2 `}>OUR TOKENOMICS</h2>
-                <div className="grid grid-cols-12 grid-rows-2 gap-5 ">
-                    <div className="relative col-span-6 shadow-inner shadow-_orange rounded-3xl p-8 bg-_gray overflow-hidden">
-                        <div className="absolute w-full h-full -right-[0%] top-0 bg-[url('/img/components/03Tokenomics/eclipse.png')] bg-no-repeat bg-right z-30"></div>
-                        <p className={`${DRUK_WIDE} text-_orange text-[24px] font-medium uppercase relative z-30`}>Total Supply</p>
-                        <p className="text-white text-[30px] font-extrabold relative z-30">1 000 000 000 GIRAFFIX</p>
+                <div className="grid grid-cols-12 grid-rows-2 gap-2.5 md:gap-5 ">
+                    <div className="relative col-span-12 lg:col-span-6 shadow-inner shadow-_orange rounded-3xl p-6 md:p-8 bg-_gray overflow-hidden">
+                        <div className="absolute w-full h-full -right-[25%] md:-right-0 -top-[0%] md:top-0 bg-[url('/img/components/03Tokenomics/eclipse.png')] bg-cover md:bg-auto bg-no-repeat bg-right z-30"></div>
+                        <p className={`${DRUK_WIDE} text-_orange text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-medium uppercase relative z-30`}>Total Supply</p>
+                        <p className="text-white text-[16px] md:text-[30px] font-extrabold relative z-30">1 000 000 000 GIRAFFIX</p>
                     </div>
 
-                    <div className="col-span-3 shadow-inner shadow-_orange rounded-3xl p-8 bg-_gray">
+                    <div className="col-span-12 sm:col-span-6 lg:col-span-3 shadow-inner shadow-_orange rounded-3xl p-6 md:p-8 bg-_gray">
                         <div className="flex justify-start">
                             <Image className="inline pr-2" src={presale}/>
-                            <div className={`${DRUK_WIDE} text-_orange text-[24px] font-medium uppercase`}>PRESALE</div>
+                            <div className={`${DRUK_WIDE} text-_orange text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-medium uppercase`}>PRESALE</div>
                         </div>
-                        <p className="text-white text-[30px] font-extrabold">40%</p>
+                        <p className="text-white text-[16px] md:text-[30px] font-extrabold">40%</p>
                     </div>
 
-                    <div className="col-span-3 shadow-inner shadow-_orange rounded-3xl p-8 bg-_gray">
+                    <div className="col-span-12 sm:col-span-6 lg:col-span-3 shadow-inner shadow-_orange rounded-3xl p-6 md:p-8 bg-_gray">
                         <div className="flex justify-start">
                             <Image className="inline pr-2" src={liquidity}/>
-                            <div className={`${DRUK_WIDE} text-_orange text-[24px] font-medium uppercase`}>Liquidity</div>
+                            <div className={`${DRUK_WIDE} text-_orange text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-medium uppercase`}>Liquidity</div>
                         </div>
-                        <p className="text-white text-[30px] font-extrabold">20%</p>
+                        <p className="text-white text-[16px] md:text-[30px] font-extrabold">20%</p>
                     </div>
 
-                    <div className='col-span-6 grid grid-cols-12 gap-5'>
+                    <div className='col-span-12 lg:col-span-6 grid grid-cols-12 gap-2.5 md:gap-5'>
 
-                        <div className="col-span-5 shadow-inner shadow-_orange rounded-3xl p-8 bg-_gray">
+                        <div className="col-span-12 sm:col-span-6 lg:col-span-5 shadow-inner shadow-_orange rounded-3xl p-6 md:p-8 bg-_gray">
                             <div className="flex justify-start">
                                 <Image className="inline pr-2" src={liquidity}/>
-                                <div className={`${DRUK_WIDE} text-_orange text-[24px] font-medium uppercase`}>Team</div>
+                                <div className={`${DRUK_WIDE} text-_orange text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-medium uppercase`}>Team</div>
                             </div>
-                            <p className="text-white text-[30px] font-extrabold">10%</p>
+                            <p className="text-white text-[16px] md:text-[30px] font-extrabold">10%</p>
                         </div>
 
-                        <div className="col-span-7 shadow-inner shadow-_orange rounded-3xl p-8 bg-_gray">
+                        <div className="col-span-12 sm:col-span-6 lg:col-span-7 shadow-inner shadow-_orange rounded-3xl p-6 md:p-8 bg-_gray">
                             <div className="flex justify-start">
                                 <Image className="inline pr-2" src={liquidity}/>
-                                <div className={`${DRUK_WIDE} text-_orange text-[24px] font-medium uppercase`}>Marketing</div>
+                                <div className={`${DRUK_WIDE} text-_orange text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-medium uppercase`}>Marketing</div>
                             </div>
-                            <p className="text-white text-[30px] font-extrabold">10%</p>
+                            <p className="text-white text-[16px] md:text-[30px] font-extrabold">10%</p>
                         </div>
 
                     </div>
 
-                    <div className="col-span-2 shadow-inner shadow-_orange rounded-3xl p-8 bg-_gray">
+                    <div className="col-span-12 sm:col-span-6 lg:col-span-2 shadow-inner shadow-_orange rounded-3xl p-6 md:p-8 bg-_gray">
                         <div className="flex justify-start">
                             <Image className="inline pr-2" src={liquidity}/>
-                            <div className={`${DRUK_WIDE} text-_orange text-[24px] font-medium uppercase`}>Cex</div>
+                            <div className={`${DRUK_WIDE} text-_orange text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-medium uppercase`}>Cex</div>
                         </div>
-                        <p className="text-white text-[30px] font-extrabold">20%</p>
+                        <p className="text-white text-[16px] md:text-[30px] font-extrabold">20%</p>
                     </div>
 
-                    <div className="relative col-span-4 shadow-inner shadow-_orange rounded-3xl p-8 bg-_gray overflow-hidden">
-                        <div className="absolute w-full h-full -right-[25%] top-0 bg-[url('/img/components/03Tokenomics/eclipse.png')] bg-no-repeat bg-right z-30"></div>
-                        <p className={`${DRUK_WIDE} text-_orange text-[24px] font-medium uppercase relative z-50`}>GIRAFFIX Token</p>
-                        <p className="text-white text-[30px] font-extrabold relative z-50">xxxxxx</p>
+                    <div className="relative col-span-12 sm:col-span-6 lg:col-span-4 shadow-inner shadow-_orange rounded-3xl p-6 md:p-8 bg-_gray overflow-hidden">
+                        <div className="absolute w-full h-full -right-[25%] md:-right-[0%] top-0 bg-[url('/img/components/03Tokenomics/eclipse.png')] bg-cover bg-no-repeat bg-right z-30"></div>
+                        <p className={`${DRUK_WIDE} text-_orange text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-medium uppercase relative z-50`}>GIRAFFIX Token</p>
+                        <p className="text-white text-[16px] md:text-[30px] font-extrabold relative z-50">xxxxxx</p>
                     </div>
                 </div>
             </div>

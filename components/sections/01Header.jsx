@@ -6,12 +6,14 @@ import Social from "../elements/Social";
 import burger from '../../public/img/components/01Header/burger.svg'
 import giraffix from '../../public/img/components/01Header/giraffix.png'
 import giraffix_n_lines from '../../public/img/components/01Header/giraffix_n_lines.png'
+import giraffix_menu from '../../public/img/components/01Header/giraffix_menu.png'
 import eclipse from '../../public/img/components/01Header/eclipse.png'
+import cross from '../../public/img/components/01Header/cross.svg'
 
 export default function Header(){
     const [ isHidden, setIsHidden ] = useState(true)
     return (
-        <section className="_section relative pb-[8%] min-h-screen ">
+        <section className="_section relative pb-[8%] ">
 
             <div className="absolute top-0 w-full h-full bg-[url('/img/components/01Header/bg.png')] bg-no-repeat bg-cover -z-50"></div>
 
@@ -31,30 +33,51 @@ export default function Header(){
 
 
                 {/* Выдвижное меню */}
-                <div>
+                <div className={`${isHidden ? 'hidden' : 'block'} absolute z-50 top-0 left-0 w-full  bg-gradient-to-br to-[#FF5924] from-[#FF932F] rounded-b-2xl `}>
 
-                </div>
+                    <div className="relative py-10 sm:py-10 md:py-12 xl:py-20 flex flex-col md:flex-row _wrapper">
+                        <Image className="absolute top-5 md:top-10 right-5 cursor-pointer w-[30px] h-[30px] sm:w-[49px] sm:h-[49px]" src={ cross } alt="menu-toggle" onClick={()=> setIsHidden(true) }/>
+                        
+                        <menu className={`${DRUK_WIDE} block md:w-1/2 w-full relative z-50 text-[16px] xs:text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] mt-10 text-black`}>
+                            <li className="flex justify-center md:justify-start w-full" onClick={()=> setIsHidden(true) }><a href="#02Header">HOME</a></li>
+                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#04Tokenomics">TOKENOMICS</a></li>
+                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#05Partners">PARTNERS</a></li>
+                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#06Roadmap">ROADMAP</a></li>
+                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#07Feedback">CONTACTS</a></li>
+                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="https://instruction.hulkmemcoach.top">WHITE PAPER</a></li>
+                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5 py-[60px] xl:py-[100px] ">
+                                <Social black/>
+                            </li>
+                        </menu>
+                        <div className="w-full md:w-1/2 flex flex-col justify-center">
+                            <Image src={giraffix_menu} alt="" className="block  bottom-0 right-0 w-full" />
+                        </div>
+                        
+                    </div>
+                </div>   
 
 
 
                 {/* Основа */}
                 <div className="flex flex-col">
                     
-                    <h1 className={`${DRUK_WIDE} _text-shadow text-center py-5 text-[128px] leading-none bg-gradient-to-r from-_orange to-[#FF9330] inline-block text-transparent bg-clip-text drop-shadow-lg uppercase`}>GIRAFFIX</h1>
+                    <h1 className={`${DRUK_WIDE} _text-shadow text-center py-5 text-[40px] xs:text-[44px] sm:text-[56px] md:text-[84px] lg:text-[112px] xl:text-[128px] leading-none bg-gradient-to-r from-_orange to-[#FF9330] inline-block text-transparent bg-clip-text drop-shadow-lg uppercase`}>GIRAFFIX</h1>
                     
-                    <div className="flex justify-center gap-x-2.5">
-                        <a className="px-[50px] _20px-extrabold  py-[27px] rounded-2xl bg-gradient-to-r from-_orange to-[#FF7606] " href="">PRESALE</a>
-                        <a className="px-[50px] _20px-extrabold  py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="">WHITEPAPPER</a>
+                    <div className="flex w-full justify-center order-last md:order-none gap-x-2 md:gap-x-2.5 mt-[2%]">
+                        <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r from-_orange to-[#FF7606] " href="">PRESALE</a>
+                        <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="">WHITEPAPPER</a>
                     </div>
                       
-                    <div className="relative ">
-                        <div className="max-w-[75%] mx-auto">
-                            <Image className="w-auto mx-auto pt-[3%]" src={giraffix_n_lines} />
+                    <div className="relative">
+                        <div className="w-full mx-auto">
+                            <Image className="relative z-40 w-auto mx-auto pt-[30%] xs:pt-[15%] sm:pt-[10%] md:pt-[3%]" src={giraffix_n_lines} />
                         </div>
-                        <div className="absolute left-[0%] top-[20%] w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray px-[27px] py-[17px] rounded-3xl _20px-extrabold">The world of cryptocurrencies and decentralized finance unites an exciting <span className="text-_orange">world of possibilities</span></div>
-                        <div className="absolute right-[0%] top-[10%] w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray px-[27px] py-[17px] rounded-3xl _20px-extrabold"> Just as Grafix pleases millions of people, our token will <span className="text-_orange">make the world a better place.</span></div>
-                        
-                        <Image className="absolute left-0 w-full mx-auto -bottom-[10%] -z-10  " src={eclipse} />
+
+                        <div className="absolute top-0  w-full flex justify-between gap-x-2">
+                            <div className="md:mt-[16%] leading-none tracking-tight  md:w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray p-2.5 md:px-[27px] py-2.5 md:py-[17px] rounded-xl md:rounded-3xl _20px-extrabold">The world of cryptocurrencies and decentralized finance unites an exciting <span className="text-_orange">world of possibilities</span></div>
+                            <div className="md:mt-[10%] leading-none md:mb-[6%] tracking-tight  md:w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray p-2.5 md:px-[27px] py-2.5 md:py-[17px] rounded-xl md:rounded-3xl _20px-extrabold"> Just as Grafix pleases millions of people, our token will <span className="text-_orange">make the world a better place.</span></div>
+                        </div>
+                        <Image className="absolute left-0 w-full mx-auto -bottom-[10%] -z-10" src={eclipse} />
                         {/* <div className="absolute w-full h-full bg-[url('/img/components/01Header/eclipse.png')] -z-50"></div> */}
                     </div>
                     

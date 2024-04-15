@@ -23,9 +23,7 @@ export default function Home() {
           </Head>
           <Header/>
           <div className="relative w-full h-auto ">
-              <div className="absolute w-full h-full bg-[url('/img/components/bg.png')] bg-contain bg-repeat-y opacity-15 -z-50">
-
-              </div>
+              <div className="absolute w-full h-full bg-[url('/img/components/bg.png')] bg-contain bg-repeat-y opacity-25 -z-40"></div>
               <About/>
               <Tokenomics/>
               <Partners/>

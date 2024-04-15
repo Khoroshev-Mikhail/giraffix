@@ -17,13 +17,29 @@ body {
 ._text-shadow{
   filter: drop-shadow(0px 5px #000);
 }
-
+._text-shadow-2px{
+  /* text-shadow: 0px 2px #000, 0px -2px #FFF; */
+  filter: drop-shadow(0px 2px #000);
+}
+._text-shadow-footer{
+  @apply bg-gradient-to-b from-[#5B5B5B] via-[#2A2A2A] to-[#5B5B5B] inline-block  text-transparent bg-clip-text _text-shadow-2px
+}
 ._h2 {
-  @apply text-[60px] _text-shadow bg-gradient-to-r from-_orange to-[#FF932F] inline-block shadow-inner text-transparent bg-clip-text  uppercase mb-[30px]
+  @apply text-[28px] xs:text-[36px] sm:text-[44px] md:text-[52px] lg:text-[60px] _text-shadow bg-gradient-to-r from-_orange to-[#FF932F] inline-block  text-transparent bg-clip-text  uppercase mb-[30px]
 }
 ._24px{
-  @apply text-[24px] font-medium
+  @apply text-[16px] sm:text-[18px] md:text-[20px] xl:text-[24px] font-medium
 }
 ._20px-extrabold{
-  @apply text-[20px] font-extrabold
+  @apply  font-extrabold text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px]
+}
+/* ._text-inner-shadow-white{
+  text-shadow: 1px 1px white, -1px -1px #444;
+} */
+._shadow{
+  box-shadow: 0 5px 0px 0px rgb(0 0 0 / 1);
+}
+._ara{
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+  border-bottom: 30px;
 }

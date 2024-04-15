@@ -12,30 +12,69 @@ export default function Partners(){
     return (
         <section className="_section relative overflow-visible mt-28">
 
-            <div className="hidden md:block w-full h-[250%] absolute -bottom-[100%] -z-40 bg-contain bg-no-repeat bg-[url('/img/components/eclipse.png')]"></div>
+            <div className="hidden md:block w-full h-[250%] absolute -bottom-[100%] -z-50 bg-contain bg-no-repeat bg-[url('/img/components/eclipse.png')]"></div>
+            <div className="md:hidden w-full h-[250%] absolute -bottom-[100%] right-0 -z-50 bg-contain bg-no-repeat bg-right bg-[url('/img/components/eclipse_mobile.png')]"></div>
 
             <div className="_wrapper">
                 <h2 className={`${DRUK_WIDE} _h2 text-center w-full`}>PARTNERS</h2>
                 
-                <div className='flex flex-col w-full bg-_gray rounded-3xl p-14'>
+                <div className='grid grid-cols-12 grid-rows-2 w-full bg-_gray rounded-3xl p-6 md:p-8 lg:p-10 xl:p-14 sm:gap-10'>
+                    <div className='col-span-12 w-full sm:w-full sm:col-span-3'>
+                        <div className='flex flex-col w-full h-full justify-center'>
+                            <Image className="block w-1/2 sm:w-full ml-[10%] sm:ml-0" src={partner_3} />
+                        </div>
+                    </div>
+                    <div className='col-span-12 full sm:w-full sm:col-span-3'>
+                        <div className='flex flex-col w-full h-full justify-center'>
+                            <Image className="block w-1/2 sm:w-full ml-auto" src={partner_2} />
+                        </div>
+                    </div>
+                    <div className='col-span-12 w-full sm:w-full sm:col-span-3'>
+                        <div className='flex flex-col w-full h-full justify-center'>
+                            <Image className="block w-1/2 sm:w-full ml-[5%] sm:ml-0" src={partner_1} />
+                        </div>
+                    </div>
+                    <div className='col-span-12 w-full sm:w-full sm:col-span-3'>
+                        <div className='flex flex-col w-full h-full justify-center'>
+                            <Image className="block w-1/2 sm:w-full ml-auto" src={partner_4} />
+                        </div>
+                    </div>
+                    <div className='col-span-12 w-full sm:w-full sm:col-span-4'>
+                        <div className='flex flex-col w-full h-full justify-center'>
+                            <Image className="block w-1/2 sm:w-full" src={partner_5} />
+                        </div>
+                    </div>
+                    <div className='col-span-12 w-full sm:w-full sm:col-span-4'>
+                        <div className='flex flex-col w-full h-full justify-center'>
+                            <Image className="block w-1/2 sm:w-full ml-auto" src={partner_6} />
+                        </div>
+                    </div>
+                    <div className='col-span-12 w-full sm:w-full sm:col-span-4 '>
+                        <div className='flex flex-col w-full h-full justify-center'>
+                            <Image className="block w-1/2 sm:w-full ml-[5%] sm:ml-0" src={partner_7} />
+                        </div>
+                    </div>
+                </div>
 
-                    <div className='flex justify-between gap-x-10'>
-                        <div className='basis-1/4'>
+                {/* <div className='flex flex-col w-full bg-_gray rounded-3xl p-14'>
+
+                    <div className='flex flex-row justify-between gap-x-10'>
+                        <div className='w-1/4 basis-1/2'>
                             <div className='flex flex-col w-full h-full justify-center'>
                                 <Image className="block w-full" src={partner_1} />
                             </div>
                         </div>
-                        <div className='basis-1/4'>
+                        <div className='md:basis-1/4 md:w-1/4 w-1/2 basis-1/2'>
                             <div className='flex flex-col w-full h-full justify-center'>
                                 <Image className="block w-full" src={partner_2} />
                             </div>
                         </div>
-                        <div className='basis-1/4'>
+                        <div className='md:basis-1/4 md:w-1/4 w-1/2 basis-1/2'>
                             <div className='flex flex-col w-full h-full justify-center'>
                                 <Image className="block w-full" src={partner_3} />
                             </div>
                         </div>
-                        <div className='basis-1/4'>
+                        <div className='md:basis-1/4 md:w-1/4 w-1/2 basis-1/2'>
                             <div className='flex flex-col w-full h-full justify-center'>
                                 <Image className="block w-full" src={partner_4} />
                             </div>
@@ -43,24 +82,24 @@ export default function Partners(){
                     </div>
 
                     <div className='flex justify-around mt-[3%]'>
-                        <div className='basis-1/4'>
+                        <div className='md:basis-1/4 md:w-1/4 w-1/2 basis-1/2'>
                             <div className='flex flex-col w-full h-full justify-center'>
                                 <Image className="block w-full" src={partner_5} />
                             </div>
                         </div>
-                        <div className='basis-1/4'>
+                        <div className='md:basis-1/4 md:w-1/4 w-1/2 basis-1/2'>
                             <div className='flex flex-col w-full h-full justify-center'>
                                 <Image className="block w-full" src={partner_6} />
                             </div>
                         </div>
-                        <div className='basis-1/4'>
+                        <div className='md:basis-1/4 md:w-1/4 w-1/2 basis-1/2'>
                             <div className='flex flex-col w-full h-full justify-center'>
                                 <Image className="block w-full" src={partner_7} />
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     
-                </div>
+                {/* </div> */}
             </div>
          </section>
     )
