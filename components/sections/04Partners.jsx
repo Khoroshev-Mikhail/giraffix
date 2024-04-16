@@ -1,11 +1,11 @@
 import Image from 'next/image'
-import partner_1 from '../../public/img/components/04Partners/1.png'
-import partner_2 from '../../public/img/components/04Partners/2.png'
-import partner_3 from '../../public/img/components/04Partners/3.png'
-import partner_4 from '../../public/img/components/04Partners/4.png'
-import partner_5 from '../../public/img/components/04Partners/5.png'
-import partner_6 from '../../public/img/components/04Partners/6.png'
-import partner_7 from '../../public/img/components/04Partners/7.png'
+import partner_1 from '../../public/img/components/04Partners/1.webp'
+import partner_2 from '../../public/img/components/04Partners/2.webp'
+import partner_3 from '../../public/img/components/04Partners/3.webp'
+import partner_4 from '../../public/img/components/04Partners/4.webp'
+import partner_5 from '../../public/img/components/04Partners/5.webp'
+import partner_6 from '../../public/img/components/04Partners/6.webp'
+import partner_7 from '../../public/img/components/04Partners/7.webp'
 import { DRUK_WIDE } from "@/pages/_app";
 
 export default function Partners(){
@@ -21,7 +21,7 @@ export default function Partners(){
                 <div className='grid grid-cols-12 grid-rows-2 w-full bg-_gray rounded-3xl p-6 md:p-8 lg:p-10 xl:p-14 sm:gap-10'>
                     <div className='col-span-12 w-full sm:w-full sm:col-span-3'>
                         <div className='flex flex-col w-full h-full justify-center'>
-                            <Image data-aos="fade-right" data-aos-duration="1500" className="block w-1/2 sm:w-full ml-[10%] sm:ml-0" src={partner_3} />
+                            <Image data-aos="fade-right" data-aos-duration="1500" className="block w-1/2 sm:w-full" src={partner_3} />
                         </div>
                     </div>
                     <div className='col-span-12 full sm:w-full sm:col-span-3'>
@@ -31,7 +31,7 @@ export default function Partners(){
                     </div>
                     <div className='col-span-12 w-full sm:w-full sm:col-span-3'>
                         <div className='flex flex-col w-full h-full justify-center'>
-                            <Image data-aos="fade-right" data-aos-duration="1500" className="block w-1/2 sm:w-full ml-[5%] sm:ml-0" src={partner_1} />
+                            <Image data-aos="fade-right" data-aos-duration="1500" className="block w-1/2 sm:w-full " src={partner_1} />
                         </div>
                     </div>
                     <div className='col-span-12 w-full sm:w-full sm:col-span-3'>
@@ -51,7 +51,7 @@ export default function Partners(){
                     </div>
                     <div className='col-span-12 w-full sm:w-full sm:col-span-4 '>
                         <div className='flex flex-col w-full h-full justify-center'>
-                            <Image data-aos="fade-right" data-aos-duration="1500" className="block w-1/2 sm:w-full ml-[5%] sm:ml-0" src={partner_7} />
+                            <Image data-aos="fade-right" data-aos-duration="1500" className="block w-1/2 sm:w-full " src={partner_7} />
                         </div>
                     </div>
                 </div>

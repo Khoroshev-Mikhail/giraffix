@@ -4,12 +4,11 @@ import { useState } from "react";
 import Social from "../elements/Social";
 
 import burger from '../../public/img/components/01Header/burger.svg'
-import giraffix from '../../public/img/components/01Header/giraffix.png'
-import lines_left from '../../public/img/components/01Header/lines_left.png'
-import lines_right from '../../public/img/components/01Header/lines_right.png'
-import giraffix_n_lines from '../../public/img/components/01Header/giraffix_n_lines.png'
-import giraffix_menu from '../../public/img/components/01Header/giraffix_menu.png'
-import eclipse from '../../public/img/components/01Header/eclipse.png'
+import giraffix from '../../public/img/components/01Header/giraffix.webp'
+import lines_left from '../../public/img/components/01Header/lines_left.webp'
+import lines_right from '../../public/img/components/01Header/lines_right.webp'
+import giraffix_menu from '../../public/img/components/01Header/giraffix_menu.webp'
+import eclipse from '../../public/img/components/01Header/eclipse.webp'
 import cross from '../../public/img/components/01Header/cross.svg'
 
 export default function Header(){
@@ -17,7 +16,7 @@ export default function Header(){
     return (
         <section className="_section relative pb-[8%] ">
 
-            <div className="absolute top-0 w-full h-full bg-[url('/img/components/01Header/bg.png')] bg-no-repeat bg-cover -z-50"></div>
+            <div className="absolute top-0 w-full h-full bg-[url('/img/components/01Header/bg.webp')] bg-no-repeat bg-cover -z-50"></div>
 
             <div className="_wrapper flex flex-col">
 
@@ -66,8 +65,8 @@ export default function Header(){
                     <h1 className={`${DRUK_WIDE} _text-shadow text-center py-5 text-[40px] xs:text-[44px] sm:text-[56px] md:text-[84px] lg:text-[112px] xl:text-[128px] leading-none bg-gradient-to-r from-_orange to-[#FF9330] inline-block text-transparent bg-clip-text drop-shadow-lg uppercase`}>GIRAFFIX</h1>
                     
                     <div className="flex w-full justify-center order-last md:order-none gap-x-2 md:gap-x-2.5 mt-[2%]">
-                        <a data-aos-duration="1500" data-aos="fade-right" className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r from-_orange to-[#FF7606] " href="">PRESALE</a>
-                        <a data-aos-duration="1500" data-aos="fade-left" className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="">WHITEPAPPER</a>
+                        <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r from-_orange to-[#FF7606] " href="">PRESALE</a>
+                        <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="">WHITEPAPPER</a>
                     </div>
                       
                     <div className="relative">
@@ -82,7 +81,6 @@ export default function Header(){
                             <div className="md:mt-[10%] leading-none md:mb-[6%] tracking-tight  md:w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray p-2.5 md:px-[27px] py-2.5 md:py-[17px] rounded-xl md:rounded-3xl _20px-extrabold"> Just as Grafix pleases millions of people, our token will <span className="text-_orange">make the world a better place.</span></div>
                         </div>
                         <Image className="_animate-main absolute left-0 w-full mx-auto -bottom-[10%] -z-10" src={eclipse} />
-                        {/* <div className="absolute w-full h-full bg-[url('/img/components/01Header/eclipse.png')] -z-50"></div> */}
                     </div>
                     
                 </div>

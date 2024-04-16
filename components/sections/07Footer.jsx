@@ -1,19 +1,19 @@
 import { DRUK_WIDE } from "@/pages/_app";
 import Image from 'next/image'
-import giraffix from '../../public/img/components/07Footer/giraffix.png'
-import lines_left from '../../public/img/components/07Footer/lines-left.png'
-import lines_right from '../../public/img/components/07Footer/lines-right.png'
+import giraffix from '../../public/img/components/07Footer/giraffix.webp'
+import lines_left from '../../public/img/components/07Footer/lines-left.webp'
+import lines_right from '../../public/img/components/07Footer/lines-right.webp'
 import Social from "../elements/Social";
 
 export default function Footer(){
     return (
-        <section className="_section mt-40">
+        <section className="_section mt-14 xs:mt-20 md:mt-40">
             <div className="_wrapper">
                 <div className="_shadow flex flex-col sm:flex-row justify-between bg-gradient-to-r md:bg-gradient-to-tr from-[#FF922E] to-[#FF5824] rounded-[35px]">
                     <div className="relative w-full sm:w-1/2 basis-1/2 flex flex-col  py-[38px] md:py-[60px] lg:py-[80px] justify-between overflow-hidden rounded-t-[35px]">
 
-                        <div className="absolute top-[20%] -left-[55%] sm:-left-[25%] w-[80%] sm:w-[60%] h-full bg-[url('/img/components/07Footer/lines.png')] scale-x-[-1] bg-left-top bg-no-repeat bg-contain"></div>
-                        <div className="absolute -bottom-[50%] sm:bottom-[5%] -right-[60%] sm:-right-[18%] w-[80%] sm:w-[60%] h-full bg-[url('/img/components/07Footer/lines.png')]  scale-y-[-1] bg-right-bottom bg-no-repeat bg-contain"></div>
+                        <div className="absolute top-[20%] -left-[55%] sm:-left-[25%] w-[80%] sm:w-[60%] h-full bg-[url('/img/components/07Footer/lines.webp')] scale-x-[-1] bg-left-top bg-no-repeat bg-contain"></div>
+                        <div className="absolute -bottom-[50%] sm:bottom-[5%] -right-[60%] sm:-right-[18%] w-[80%] sm:w-[60%] h-full bg-[url('/img/components/07Footer/lines.webp')]  scale-y-[-1] bg-right-bottom bg-no-repeat bg-contain"></div>
 
                         <div className={`${DRUK_WIDE} text-[#2A2A2A] font-medium text-[28px] xs:text-[36px] sm:text-[36px] md:text-[44px] lg:text-[52px] xl:text-[60px] uppercase text-center tracking-tight leading-tight`}>
                             <span className="_text-shadow-footer">Join our</span> <br/> 
