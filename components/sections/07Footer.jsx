@@ -9,7 +9,7 @@ export default function Footer(){
     return (
         <section className="_section mt-40">
             <div className="_wrapper">
-                <div className="flex flex-col sm:flex-row justify-between bg-gradient-to-r md:bg-gradient-to-tr from-[#FF922E] to-[#FF5824] rounded-[35px]">
+                <div className="_shadow flex flex-col sm:flex-row justify-between bg-gradient-to-r md:bg-gradient-to-tr from-[#FF922E] to-[#FF5824] rounded-[35px]">
                     <div className="relative w-full sm:w-1/2 basis-1/2 flex flex-col  py-[38px] md:py-[60px] lg:py-[80px] justify-between overflow-hidden rounded-t-[35px]">
 
                         <div className="absolute top-[20%] -left-[55%] sm:-left-[25%] w-[80%] sm:w-[60%] h-full bg-[url('/img/components/07Footer/lines.png')] scale-x-[-1] bg-left-top bg-no-repeat bg-contain"></div>

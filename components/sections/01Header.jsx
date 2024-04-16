@@ -5,6 +5,8 @@ import Social from "../elements/Social";
 
 import burger from '../../public/img/components/01Header/burger.svg'
 import giraffix from '../../public/img/components/01Header/giraffix.png'
+import lines_left from '../../public/img/components/01Header/lines_left.png'
+import lines_right from '../../public/img/components/01Header/lines_right.png'
 import giraffix_n_lines from '../../public/img/components/01Header/giraffix_n_lines.png'
 import giraffix_menu from '../../public/img/components/01Header/giraffix_menu.png'
 import eclipse from '../../public/img/components/01Header/eclipse.png'
@@ -59,25 +61,27 @@ export default function Header(){
 
 
                 {/* Основа */}
-                <div className="flex flex-col">
+                <div className="flex flex-col overflow-hidden">
                     
                     <h1 className={`${DRUK_WIDE} _text-shadow text-center py-5 text-[40px] xs:text-[44px] sm:text-[56px] md:text-[84px] lg:text-[112px] xl:text-[128px] leading-none bg-gradient-to-r from-_orange to-[#FF9330] inline-block text-transparent bg-clip-text drop-shadow-lg uppercase`}>GIRAFFIX</h1>
                     
                     <div className="flex w-full justify-center order-last md:order-none gap-x-2 md:gap-x-2.5 mt-[2%]">
-                        <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r from-_orange to-[#FF7606] " href="">PRESALE</a>
-                        <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="">WHITEPAPPER</a>
+                        <a data-aos-duration="1500" data-aos="fade-right" className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r from-_orange to-[#FF7606] " href="">PRESALE</a>
+                        <a data-aos-duration="1500" data-aos="fade-left" className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="">WHITEPAPPER</a>
                     </div>
                       
                     <div className="relative">
-                        <div className="w-full mx-auto">
-                            <Image className="relative z-40 w-auto mx-auto pt-[30%] xs:pt-[15%] sm:pt-[10%] md:pt-[3%]" src={giraffix_n_lines} />
+                        <div className="relative w-full mx-auto">
+                            <Image className="relative z-40 w-1/2 md:w-auto mx-auto pt-[30%] xs:pt-[15%] sm:pt-[10%] md:pt-[3%]" src={giraffix} />
+                            <Image className="_animate-lines-left absolute top-[60%] md:top-[48%] -left-[25%] md:left-[20%] w-1/2 md:w-1/3" src={lines_left} />
+                            <Image className="_animate-lines-right absolute top-[42%] md:top-[42%] right-[100%] md:right-[20%] w-1/2 md:w-1/3" src={lines_right} />
                         </div>
 
                         <div className="absolute top-0  w-full flex justify-between gap-x-2">
                             <div className="md:mt-[16%] leading-none tracking-tight  md:w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray p-2.5 md:px-[27px] py-2.5 md:py-[17px] rounded-xl md:rounded-3xl _20px-extrabold">The world of cryptocurrencies and decentralized finance unites an exciting <span className="text-_orange">world of possibilities</span></div>
                             <div className="md:mt-[10%] leading-none md:mb-[6%] tracking-tight  md:w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray p-2.5 md:px-[27px] py-2.5 md:py-[17px] rounded-xl md:rounded-3xl _20px-extrabold"> Just as Grafix pleases millions of people, our token will <span className="text-_orange">make the world a better place.</span></div>
                         </div>
-                        <Image className="absolute left-0 w-full mx-auto -bottom-[10%] -z-10" src={eclipse} />
+                        <Image className="_animate-main absolute left-0 w-full mx-auto -bottom-[10%] -z-10" src={eclipse} />
                         {/* <div className="absolute w-full h-full bg-[url('/img/components/01Header/eclipse.png')] -z-50"></div> */}
                     </div>
                     
