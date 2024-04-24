@@ -77,7 +77,7 @@ export default function Header(){
 
                         <div className="absolute top-0  w-full flex justify-between gap-x-2">
                             <div className="md:mt-[16%] leading-none tracking-tight  md:w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray p-2.5 md:px-[27px] py-2.5 md:py-[17px] rounded-xl md:rounded-3xl _20px-extrabold">The world of cryptocurrencies and decentralized finance unites an exciting <span className="text-_orange">world of possibilities</span></div>
-                            <div className="md:mt-[10%] leading-none md:mb-[6%] tracking-tight  md:w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray p-2.5 md:px-[27px] py-2.5 md:py-[17px] rounded-xl md:rounded-3xl _20px-extrabold"> Just as Grafix pleases millions of people, our token will <span className="text-_orange">make the world a better place.</span></div>
+                            <div className="md:mt-[10%] leading-none md:mb-[6%] tracking-tight  md:w-1/3 bg-_gray bg-opacity-65 border-[1px] border-_gray p-2.5 md:px-[27px] py-2.5 md:py-[17px] rounded-xl md:rounded-3xl _20px-extrabold"> Just as Graffix pleases millions of people, our token will <span className="text-_orange">make the world a better place.</span></div>
                         </div>
                         <Image className="_animate-main absolute left-0 w-full mx-auto -bottom-[10%] -z-10" src={eclipse} />
                     </div>
