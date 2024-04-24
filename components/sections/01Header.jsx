@@ -66,7 +66,7 @@ export default function Header(){
                     <div className="flex w-full justify-center order-last md:order-none gap-x-2 md:gap-x-2.5 mt-[2%]">
                         <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r from-_orange to-[#FF7606] " href="https://www.pinksale.finance/solana/launchpad/61AYUsuhG22eWGTskZ3PLdewU941NhT7EabDnyWNeQeV">PRESALE</a>
                         {/* <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="https://app.analytixaudit.com/giraffix">AUDIT</a> */}
-                        <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="https://giraffix.gitbook.io/whitepapper/">AUDIT</a>
+                        <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="https://giraffix.gitbook.io/whitepapper/">WHITE PAPER</a>
                     </div>
                       
                     <div className="relative">
