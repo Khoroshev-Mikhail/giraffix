@@ -14,7 +14,7 @@ import cross from '../../public/img/components/01Header/cross.svg'
 export default function Header(){
     const [ isHidden, setIsHidden ] = useState(true)
     return (
-        <section className="_section relative pb-[8%] ">
+        <section id="01Header" className="_section relative pb-[8%] ">
 
             <div className="absolute top-0 w-full h-full bg-[url('/img/components/01Header/bg.webp')] bg-no-repeat bg-cover -z-50"></div>
 
@@ -40,12 +40,11 @@ export default function Header(){
                         <Image className="absolute top-5 md:top-10 right-5 cursor-pointer w-[30px] h-[30px] sm:w-[49px] sm:h-[49px]" src={ cross } alt="menu-toggle" onClick={()=> setIsHidden(true) }/>
                         
                         <menu className={`${DRUK_WIDE} block md:w-1/2 w-full relative z-50 text-[16px] xs:text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] mt-10 text-black`}>
-                            <li className="flex justify-center md:justify-start w-full" onClick={()=> setIsHidden(true) }><a href="#02Header">HOME</a></li>
-                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#04Tokenomics">TOKENOMICS</a></li>
-                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#05Partners">PARTNERS</a></li>
-                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#06Roadmap">ROADMAP</a></li>
-                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#07Feedback">CONTACTS</a></li>
-                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="https://instruction.hulkmemcoach.top">WHITE PAPER</a></li>
+                            <li className="flex justify-center md:justify-start w-full" onClick={()=> setIsHidden(true) }><a href="#01Header">HOME</a></li>
+                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#03Tokenomics">TOKENOMICS</a></li>
+                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#04Partners">PARTNERS</a></li>
+                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#05Roadmap">ROADMAP</a></li>
+                            <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5"><a href="#06Footer">CONTACTS</a></li>
                             <li className="flex justify-center md:justify-start w-full mt-3 md:mt-5 py-[60px] xl:py-[100px] ">
                                 <Social black/>
                             </li>
@@ -66,7 +65,7 @@ export default function Header(){
                     
                     <div className="flex w-full justify-center order-last md:order-none gap-x-2 md:gap-x-2.5 mt-[2%]">
                         <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r from-_orange to-[#FF7606] " href="">PRESALE</a>
-                        <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="">WHITEPAPPER</a>
+                        <a className="px-[25px] md:px-[50px] _20px-extrabold py-[17px] md:py-[27px] rounded-2xl bg-gradient-to-r  to-_gray from-[#3D3D3D]" href="https://app.analytixaudit.com/giraffix">AUDIT</a>
                     </div>
                       
                     <div className="relative">

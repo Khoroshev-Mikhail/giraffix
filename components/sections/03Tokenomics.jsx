@@ -5,7 +5,7 @@ import liquidity from '../../public/img/components/03Tokenomics/liquidity.svg'
 
 export default function Tokenomics(){
     return (
-        <section className="_section mt-28">
+        <section id="03Tokenomics" className="_section mt-28">
             <div className="_wrapper flex flex-col">
                 <h2 className={`${DRUK_WIDE} _h2 `}>OUR TOKENOMICS</h2>
                 <div className="grid grid-cols-12 grid-rows-2 gap-2.5 md:gap-5 ">
@@ -62,7 +62,7 @@ export default function Tokenomics(){
                     <div data-aos="fade-right" data-aos-duration="1500" className="relative col-span-12 sm:col-span-6 lg:col-span-4 shadow-inner shadow-_orange rounded-3xl p-6 md:p-8 bg-_gray overflow-hidden">
                         <div className="absolute w-full h-full -right-[25%] md:-right-[0%] top-0 bg-[url('/img/components/03Tokenomics/eclipse.png')] bg-cover bg-no-repeat bg-right z-30"></div>
                         <p className={`${DRUK_WIDE} text-_orange text-[16px] md:text-[20px] lg:text-[22px] xl:text-[24px] font-medium uppercase relative z-50`}>GIRAFFIX Token</p>
-                        <p className="text-white text-[16px] md:text-[30px] font-extrabold relative z-50">xxxxxx</p>
+                        <p className="text-white text-[16px] md:text-[30px] font-extrabold relative z-50">Cpdn3dNSogW4PGPzX4KECm<wbr/>7kzqEJd5TAXk15cPUgyVFQ</p>
                     </div>
                 </div>
             </div>

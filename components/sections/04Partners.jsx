@@ -10,10 +10,10 @@ import { DRUK_WIDE } from "@/pages/_app";
 
 export default function Partners(){
     return (
-        <section className="_section relative overflow-visible mt-28">
+        <section id="04Partners" className="_section relative overflow-visible mt-28">
 
-            <div className="_animate-moveUp hidden md:block w-full h-[250%] absolute -bottom-[100%] -z-50 bg-contain bg-no-repeat bg-[url('/img/components/eclipse.png')]"></div>
-            <div className="_animate-moveUp md:hidden w-full h-[200%] absolute -bottom-[100%] right-0 -z-50 bg-contain bg-no-repeat bg-right bg-[url('/img/components/eclipse_mobile.png')]"></div>
+            <div className="_animate-moveUp hidden md:block w-full h-[250%] absolute -bottom-[100%] -z-50 bg-contain bg-no-repeat bg-[url('/img/components/eclipse.webp')]"></div>
+            <div className="_animate-moveUp md:hidden w-full h-[200%] absolute -bottom-[100%] right-0 -z-50 bg-contain bg-no-repeat bg-right bg-[url('/img/components/eclipse_mobile.webp')]"></div>
 
             <div className="_wrapper">
                 <h2 className={`${DRUK_WIDE} _h2 text-center w-full`}>PARTNERS</h2>

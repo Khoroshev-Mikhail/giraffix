@@ -2,10 +2,10 @@ import { DRUK_WIDE } from "@/pages/_app";
 
 export default function Roadmap(){
     return (
-        <section className="_section relative mt-28 overflow-visible">
+        <section id="05Roadmap" className="_section relative mt-28 overflow-visible">
 
-            <div className="_animate-moveUp hidden md:block w-full scale-x-[-1] h-[180%] absolute -bottom-[100%] -z-40 bg-contain bg-no-repeat bg-[url('/img/components/eclipse.png')]"></div>
-            <div className="_animate-roadmap md:hidden w-full h-[100%] absolute left-0 -z-50 bg-contain bg-no-repeat bg-right scale-x-[-1] bg-[url('/img/components/eclipse_mobile.png')]"></div>
+            <div className="_animate-moveUp hidden md:block w-full scale-x-[-1] h-[180%] absolute -bottom-[100%] -z-40 bg-contain bg-no-repeat bg-[url('/img/components/eclipse.webp')]"></div>
+            <div className="_animate-roadmap md:hidden w-full h-[100%] absolute left-0 -z-50 bg-contain bg-no-repeat bg-right scale-x-[-1] bg-[url('/img/components/eclipse_mobile.webp')]"></div>
 
             <div className="_wrapper">
                 <h2 className={`${DRUK_WIDE} _h2 `}>ROADMAP</h2>

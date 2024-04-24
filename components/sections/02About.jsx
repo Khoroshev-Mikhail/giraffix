@@ -9,7 +9,7 @@ import { DRUK_WIDE } from '@/pages/_app'
 
 export default function About(){
     return (
-        <section className="_section relative">
+        <section id="02About" className="_section relative">
 
             <div className="_animate-mission hidden md:block w-full scale-x-[-1]  h-[120%] absolute -bottom-1/2 -z-40 bg-contain bg-no-repeat bg-[url('/img/components/eclipse.webp')]"></div>
 
@@ -17,11 +17,11 @@ export default function About(){
                 <h2 className={`${DRUK_WIDE} _h2 text-center mt-14`}>About girafix</h2>
 
                 <div className="grid grid-rows-1 grid-cols-2 w-full gap-5 text-white">
-                    <div data-aos="fade-right" data-aos-duration="1500" className="flex flex-col col-span-2 sm:col-span-1 row-span-1 p-[40px] bg-_gray rounded-[45px] relative bg-[url('/img/components/02about/eclipse2.png')] bg-no-repeat bg-right-top bg-contain">
+                    <div data-aos="fade-right" data-aos-duration="1500" className="flex flex-col col-span-2 sm:col-span-1 row-span-1 p-[40px] bg-_gray rounded-[45px] relative bg-[url('/img/components/02about/eclipse2.webp')] bg-no-repeat bg-right-top bg-contain">
                         <Image src={icon_2}/>
                         <p className='text-[16px] lg:text-[20px] font-extrabold mt-5'>In 2024, a funny meme called <span className='text-_orange'>GiraffX</span> emerged due to an error in an artificial intelligence program, which mistakenly classified giraffes as "giraffes", evoking images of giraffes in urban settings ("giraffe" + "traffic").</p>
                     </div>
-                    <div data-aos="fade-left" data-aos-duration="1500" className="flex flex-col col-span-2 sm:col-span-1 row-span-1 p-[40px] bg-_gray rounded-[45px] relative bg-[url('/img/components/02about/eclipse2.png')] bg-no-repeat bg-right-top bg-contain">
+                    <div data-aos="fade-left" data-aos-duration="1500" className="flex flex-col col-span-2 sm:col-span-1 row-span-1 p-[40px] bg-_gray rounded-[45px] relative bg-[url('/img/components/02about/eclipse2.webp')] bg-no-repeat bg-right-top bg-contain">
                         <Image src={icon_1}/>
                         <p className='text-[16px] lg:text-[20px] font-extrabold mt-5'>Photos of giraffes in comical urban situations quickly spread across social media, becoming a source of joy for millions of people. This incident showed how even technical errors <span className='text-_orange'>can generate unexpected and entertaining content that has become a meme classic.</span></p>
                     </div>

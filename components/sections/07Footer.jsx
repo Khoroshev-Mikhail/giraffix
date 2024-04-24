@@ -7,7 +7,7 @@ import Social from "../elements/Social";
 
 export default function Footer(){
     return (
-        <section className="_section mt-14 xs:mt-20 md:mt-40">
+        <section id="06Footer" className="_section mt-14 xs:mt-20 md:mt-40">
             <div className="_wrapper">
                 <div className="_shadow flex flex-col sm:flex-row justify-between bg-gradient-to-r md:bg-gradient-to-tr from-[#FF922E] to-[#FF5824] rounded-[35px]">
                     <div className="relative w-full sm:w-1/2 basis-1/2 flex flex-col  py-[38px] md:py-[60px] lg:py-[80px] justify-between overflow-hidden rounded-t-[35px]">
