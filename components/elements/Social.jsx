@@ -10,7 +10,7 @@ export default function Social({ black, className }){
             <a href='https://twitter.com/GIRAFFIXSOL'>
                 <Image src={black ? x_black : x} alt="x" className="block w-[30px] xs:w-auto"/>
             </a>
-            <a href='https://t.me/GIRAFFIXSOL'>
+            <a href='https://t.me/GiraffixSOLANA'>
                 <Image src={black ? tg_black : tg} alt="Telegram" className="block w-[30px] xs:w-auto"/>
             </a>
         </div>
